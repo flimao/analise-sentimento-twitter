@@ -44,6 +44,6 @@ Fora a variável *target*, `sentiment`, os seguintes campos estão presentes:
 
 ---
 
-## Conclusões
+## Conclusões (Rascunho)
 
-Trabalho em andamento
+* Os *tweets* negativos e positivos observados na base de teste são datados exclusivamente entre 27 de setembro e 15 de outubro. Este período coincide com o 1° turno da eleição para presidente; isso prejudicará a generalizabilidade do modelo.
