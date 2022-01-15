@@ -10,7 +10,7 @@ Vamos desenvolver um modelo para detectar o sentimento de uma publicação do Tw
 
 Vamos abordar o problema em fases, a saber:
 
-* **Análise de consistência dos dados**: analisaremos se os dados estão fazendo sentido, se os campos estão completos e se há dados duplicados ou faltantes;
+* [**Análise de consistência dos dados**](notebooks_exploration/1_consistencia.ipynb): analisaremos se os dados estão fazendo sentido, se os campos estão completos e se há dados duplicados ou faltantes;
 
 * **Análise exploratória**: analisaremos a base de treino como um todo, verificando o balanceamento entre as classes e focando, principalmente, na coluna *`tweet_text`*;
 
