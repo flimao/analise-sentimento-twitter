@@ -12,9 +12,9 @@ Vamos abordar o problema em fases, a saber:
 
 * [**Análise de consistência dos dados**](notebooks_exploration/1_consistencia.ipynb): analisaremos se os dados estão fazendo sentido, se os campos estão completos e se há dados duplicados ou faltantes;
 
-* **Análise exploratória**: analisaremos a base de treino como um todo, verificando o balanceamento entre as classes e focando, principalmente, na coluna *`tweet_text`*;
+* [**Análise exploratória**](notebooks_exploration/2_eda.ipynb): analisaremos a base de treino como um todo, verificando o balanceamento entre as classes e focando, principalmente, na coluna *`tweet_text`*;
 
-* **Pré-processamento e transformações**: projetos de NLP exigem um considerável pré-processamento. Por esse motivo, focaremos no tratamento da *string* do texto. Vamos começar com tratamentos simples e adicionaremos complexidade gradualmente. Nessa etapa testaremos diferentes técnicas de transformações, como o ***Bag Of Words*** e o ***TF-IDF***, bem como o ***Word2Vec*** e o ***Doc2Vec***;
+* [**Pré-processamento e transformações**](notebooks_exploration/3_preproc.ipynb): projetos de NLP exigem um considerável pré-processamento. Por esse motivo, focaremos no tratamento da *string* do texto. Vamos começar com tratamentos simples e adicionaremos complexidade gradualmente. Nessa etapa testaremos diferentes técnicas de transformações, como o ***Bag Of Words*** e o ***TF-IDF***, bem como o ***Word2Vec*** e o ***Doc2Vec***;
 
 * **Treinamento do modelo**: depois das transformações, treinaremos os modelos classificadores candidatos. Nessa etapa o problema se torna semelhante aos abordados na primeira parte do módulo. Testaremos diversos classificadores como *RandomForest*, *AdaBoost*, entre outros. Otimizaremos também os hiperparâmetros do modelo com técnicas como a *GridSearch* e a *RandomizedSearch*;
 
