@@ -16,7 +16,7 @@ Vamos abordar o problema em fases, a saber:
 
 * [**Pré-processamento e transformações**](notebooks_exploration/3_preproc.ipynb): projetos de NLP exigem um considerável pré-processamento. Por esse motivo, focaremos no tratamento da *string* do texto. Vamos começar com tratamentos simples e adicionaremos complexidade gradualmente. Nessa etapa testaremos diferentes técnicas de transformações, como o ***Bag Of Words*** e o ***TF-IDF***, bem como o ***Word2Vec*** e o ***Doc2Vec***;
 
-* **Treinamento do modelo**: depois das transformações, treinaremos os modelos classificadores candidatos. Nessa etapa o problema se torna semelhante aos abordados na primeira parte do módulo. Testaremos diversos classificadores como *RandomForest*, *AdaBoost*, entre outros. Otimizaremos também os hiperparâmetros do modelo com técnicas como a *GridSearch* e a *RandomizedSearch*;
+* [**Treinamento do modelo**](notebooks_exploration/4_train.ipynb): depois das transformações, treinaremos os modelos classificadores candidatos. Nessa etapa o problema se torna semelhante aos abordados na primeira parte do módulo. Testaremos diversos classificadores como *RandomForest*, *AdaBoost*, entre outros. Otimizaremos também os hiperparâmetros do modelo com técnicas como a *GridSearch* e a *RandomizedSearch*;
 
 * **Conclusões**: por fim, descreveremos as conclusões sobre os estudos. O modelo é capaz de identificar o sentimento das publicações? É possível extrapolar o modelo para outros contextos, como a análise de sentimento de uma frase qualquer? Tentaremos imaginar questões pertinentes e relevantes que você tenha obtido durante o desenvolvimento do projeto!
 
@@ -47,3 +47,5 @@ Fora a variável *target*, `sentiment`, os seguintes campos estão presentes:
 ## Conclusões (Rascunho)
 
 * Os *tweets* negativos e positivos observados na base de teste são datados exclusivamente entre 27 de setembro e 15 de outubro. Este período coincide com o 1° turno da eleição para presidente; isso prejudicará a generalizabilidade do modelo.
+* A palavra `não` foi a mais frequente, e parece ter conteúdo sentimental alto; no entanto, há quantidade grande de *tweets* positivos contendo a palavra `não`;
+* Palavras relacionadas à eleição (`bolsonaro`, `haddad`, `pt`) são proeminentes na base. No entanto, surpreendentemente, aparentam ter conteúdo neutro.
