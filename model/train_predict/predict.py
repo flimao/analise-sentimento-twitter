@@ -34,7 +34,7 @@ logger.setLevel(logging.INFO)
 # load model
 
 def load_model(load_path):
-    logging.info('Loading model.. ')
+    logger.info('Loading model.. ')
     with open(load_path, 'rb') as loadfile:
         full_model_spec = pickle.load(loadfile)
 
