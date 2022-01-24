@@ -149,6 +149,9 @@ Data\ Science\ Degree/
 # large API request saved results
 gastos*.json
 
+# pasta de releases
+**/releases/
+
 # pasta Rascunhos
 **/Rascunhos/
 
