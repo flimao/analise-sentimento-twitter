@@ -25,7 +25,7 @@ from train_predict.train import import_preproc_tweets
 
 logging.basicConfig(
     filename = r'./log/sentiment_analysis.log',
-    format = "[%(asctime)s] %(name)s - %(message)s"
+    format = "[%(asctime)s] (%(name)s) %(message)s"
 )
 logger = logging.getLogger(name = 'Predicter script')
 logger.setLevel(logging.INFO)

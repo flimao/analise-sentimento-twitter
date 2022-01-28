@@ -33,7 +33,7 @@ nlp = spacy.load("pt_core_news_lg")
 
 logging.basicConfig(
     filename = r'./log/sentiment_analysis.log',
-    format = "[%(asctime)s] %(name)s - %(message)s"
+    format = "[%(asctime)s] (%(name)s) %(message)s"
 )
 logger = logging.getLogger(name = 'Trainer script')
 logger.setLevel(logging.INFO)
